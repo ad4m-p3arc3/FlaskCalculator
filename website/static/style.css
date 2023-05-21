@@ -1,0 +1,99 @@
+.btn-group button {
+    background-color: #888888; 
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left; 
+  }
+  
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+
+  .btn-group2 button {
+    background-color: #888888; 
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left; 
+  }
+  
+  
+  .btn-group2:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group2 button:not(:last-child) {
+    border-right: none; 
+  }
+  
+
+  .btn-group2 button:hover {
+    background-color: #3e8e41;
+  }
+
+  .btn-group3 button {
+    background-color: #888888; 
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left; 
+  }
+  
+  
+  .btn-group3:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group3 button:not(:last-child) {
+    border-right: none; 
+  }
+  
+
+  .btn-group3 button:hover {
+    background-color: #3e8e41;
+  }
+
+  .btn-group4 button {
+    background-color: #888888; 
+    border: 1px solid black;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left; 
+  }
+  
+  
+  .btn-group4:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .btn-group4 button:not(:last-child) {
+    border-right: none; 
+  }
+  
+
+  .btn-group4 button:hover {
+    background-color: #3e8e41;
+  }

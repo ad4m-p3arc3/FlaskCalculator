@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/static/style.css' />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body>
+    <div>
+        <p>hello {{ name }}</p>
+        <h1></h1>
+        </div>
+    <div class="btn-group">
+    <input type="button" value="7"</button>
+    <input type="button" value="8"</button>
+    <input type="button" value="9"</button>
+    <input type="button" value="x"</button>
+    </div>
+    <div class="btn-group2">
+    <input type="button" value="4"</button>
+    <input type="button" value="5"</button>
+    <input type="button" value="6"</button>
+    <input type="button" value="-"</button>
+    </div>
+    <div class="btn-group3">
+    <input type="button" value="1"</button>
+    <input type="button" value="2"</button>
+    <input type="button" value="3"</button>
+    <input type="button" value="+"</button>
+    </div>
+    <div class="btn-group4">
+    <input type="button" value="%"</button>
+    <input type="button" value="0"</button>
+    <input type="button" value="."</button>
+    <input type="button" value="="</button>
+    </div>
+    <script type="text/javascript" src={{ url_for('static', filename='index.js')}}></script>
+</body>
+</html>
